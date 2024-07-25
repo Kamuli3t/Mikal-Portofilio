@@ -1,8 +1,8 @@
 import ecommerce from "../assets/projects/ecommerce.jpg";
-import weatherApp from "../assets/projects/Weather App.jpg";
-import mitadWebsite from "../assets/projects/Mitad website.jpg";
+import WeatherApp from "../assets/projects/Weather App.jpg";
+import Mitadwebsite from "../assets/projects/Mitad website.jpg";
 import blogApp from "../assets/projects/blogApp.jpg";
-import bakeryWeb from "../assets/projects/bakery web.jpg";
+import bakeryweb from "../assets/projects/bakery web.jpg";
 
 export const BIO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, SupaBase, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -71,7 +71,7 @@ export const PROJECTS = [
 
   {
     title: "Bakery Web",
-    image: Bakeryweb,
+    image: bakeryweb,
     description:
       "A platform for selling bakery and diffrent deserts and cookies from ",
   },

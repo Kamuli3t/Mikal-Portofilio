@@ -1,18 +1,24 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import Bio from "./components/Bio";
+import About from "./components/About";
+import Technologies from "./components/Technologies";
+import Experiences from "./components/Experiences";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden text-neutral-300 antialiased select bg-red-900  selection:text-cyan-900">
-      <div className="fixed top-0 -z-10 h-full w-full"></div>
-
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[linear-gradient(to right,#4f4f4f2e_1px,transparent 1px), linear-gradient(to bottom,#4f4f4f2e_1px,transparent 1px)] bg-[size:14px 24px]"></div>
-
-      <div className="container mx-auto px-8"></div>
-
-      <Navbar />
-      <Bio />
+    <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300  selection:text-cyan-900">
+      <div className="fixed top-0 -z-10 h-full w-full">
+        <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+      </div>
+      <div className="container mx-auto px-8">
+        <Navbar />
+        <Bio />
+        <About />
+        <Technologies />
+        <Experiences />
+        <Projects />
+      </div>
     </div>
   );
 };
